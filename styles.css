@@ -1,0 +1,47 @@
+/* Footer Style*/
+
+.footer-bck{
+    background-color: #494949;
+}
+
+/* Logo Footer*/
+.logo-footer{
+    max-width: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer ul{
+    padding-left: 0%;
+}
+
+footer li a{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer li a:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+footer li{
+    list-style:none
+}
+
+footer li img{
+    max-width: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer a img{
+    max-width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
