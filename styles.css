@@ -1,3 +1,99 @@
+@font-face{
+    font-family: NexaLight;
+    src: url(fonts/Nexa\ Light.otf);
+}
+@font-face{
+    font-family: NexaBold;
+    src: url(fonts/Nexa\ Bold.otf);
+}
+.shadow-bottom{
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+            -moz-box-shadow: 0 4px 6px -6px #222;
+            box-shadow: 0 4px 6px -6px #222;
+}
+.element{
+    color: #3AC0FF !important; 
+    font-family: NexaBold;
+}
+.logo-nnova-lateral{
+    width: 100%;
+    height: 100%;
+}
+#navbar-header ul{
+    margin-left: 10% !important;
+}
+#navbar-header ul li{
+    margin: 5px;
+}
+#navbar-header ul li a:hover{
+    color: #CCCCCC !important;            
+    transform: scale(1.2, 1.2);
+}
+
+/*Welcome section*/
+
+.wlc-sct{
+    margin-top: 110px;
+    margin-bottom: 130px;
+}
+
+.wlc-left{
+    position: relative;
+    margin-top: 10px;
+}
+
+.img-wlc-left{
+    position: absolute;
+    width: 90%;
+    margin-top: -60px;
+    z-index: -1;
+}
+
+/* style="position: absolute; bottom: 50px; width: 90%;" */
+
+.h1-wlc{
+    color:#3ac0ff;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+
+.h3-wlc{
+    color: #494949;
+    margin-bottom: 50px;
+    z-index: 2;
+
+}
+
+.btn-wlc{
+    border-radius: 20px;
+    color:#3ac0ff ;
+    width: 130px;
+    height: 40px;
+    z-index: 3;
+}
+
+section .wlc-sct{
+    position: relative;
+}
+
+#imagen{
+   position: absolute;
+   width: 100%;
+   bottom: 0px;
+   z-index: -1;
+}
+
+/* 2nd Section Style */
+
+.second-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pc-second-section{
+    width: 70%;
+}
+
 /* Footer Style*/
 
 .footer-bck{
